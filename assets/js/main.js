@@ -23,9 +23,35 @@
 ========================================
 [End Activation Code]
 ========================================*/ 
+
+
 (function ($) {
 	"use strict";
     $(document).ready(function(){
+
+
+		/*====================================
+			Testimonials
+		======================================*/ 
+		$(".testimonial-content").owlCarousel({
+			loop: true,
+			items: 2,
+			margin: 50,
+			dots: true,
+			nav: false,
+			mouseDrag: true,
+			autoplay: false,
+			autoplayTimeout: 4000,
+			smartSpeed: 800
+		});
+
+		/*====================================
+					End Testimonials
+		======================================*/ 
+
+
+
+
 		/*====================================
 			Sticky Header JS
 		======================================*/ 

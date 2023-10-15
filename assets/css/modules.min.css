@@ -180,7 +180,7 @@ body {
   line-height:26px;
   color:#565656;
   font-weight:400;
-  overflow-x:hidden!important;
+ /* overflow-x:hidden!important;*/
   -webkit-font-smoothing:antialiased
 }
 h1,
@@ -9131,7 +9131,7 @@ nav.edgtf-fullscreen-menu ul.sub_menu {
   position:relative;
   display:inline-block;
   vertical-align:middle;
-  border-bottom:3px solid #ffd401;
+  border-bottom:3px solid #ef7f1a!important;
   margin:10px 0;
   width:79px
 }

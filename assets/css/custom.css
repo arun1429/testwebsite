@@ -46,7 +46,7 @@ article:focus {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background-color: var(--secondary);
+	background-color: #ef7f1a;
 }
 
 .main-title.title-underline.text-center:after {
@@ -114,7 +114,7 @@ article:focus {
 
 .btn-primary:hover {
 
-	background-color: var(--secondary);
+	background-color: #ef7f1a;
 
 	color: #000;
 
@@ -168,7 +168,7 @@ article:focus {
 
 	height: 25%;
 
-	background-color: var(--secondary);
+	background-color: #ef7f1a;
 
 	border-radius: 50%;
 
@@ -208,7 +208,7 @@ article:focus {
 
 	height: 45%;
 
-	background-color: var(--secondary);
+	background-color: #ef7f1a;
 
 	border-radius: 50%;
 
@@ -394,7 +394,7 @@ article:focus {
 
 .progress.yellow .progress-bar {
 
-	border-color: var(--secondary);
+	border-color: #ef7f1a;
 
 }
 
@@ -752,7 +752,7 @@ article:focus {
 
 .services-left h2.main-title span {
 
-	color: var(--secondary);
+	color: #ef7f1a;
 
 }
 
@@ -987,7 +987,7 @@ form.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text {
 
 .contact-form input.wpcf7-form-control.wpcf7-submit:focus {
 
-	background-color: var(--secondary);
+	background-color: #ef7f1a;
 
 	border: none;
 
@@ -1123,7 +1123,7 @@ div h6 a:hover,
 
 div p a {
 
-	color: var(--primary);
+	color: #ef7f1a;
 
 }
 
@@ -2853,7 +2853,7 @@ footer div.edgtf-footer-top.edgtf-footer-top-full {
 	font-size: 12px;
 }
 .footer-btm-links ul li a:hover {
-	color: var(--secondary);
+	color: #ef7f1a;
 }
 @media (max-width: 575px) {
 	.footer-btm-links {

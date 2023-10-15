@@ -15,6 +15,10 @@
 	background-color: #f2f1f1 !important;
   }
 
+  .edgtf-blog-holder article .edgtf-post-info-bottom{ background: #f9f9f9!important;}
+
+.header .logo img{border-radius: 100px;}
+
 
 .portfolio h1{color:#fff!important;}
 .portfolio p{color:#fff!important;}
@@ -954,7 +958,7 @@ input.error{
 ========================================*/
 .header {
 	position: relative;
-	background: #f6f6f6;
+	background: #ef7f1a;
 	z-index: 9999;
 }
 /* Topbar */
@@ -1112,7 +1116,7 @@ input.error{
 	margin-right:0px;
 }
 .header .nav li a {
-	color: #033b76;
+	color: #fff;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 400;
@@ -1121,6 +1125,9 @@ input.error{
 	display: block;
 	background: transparent;
 }
+.header.sticky .nav li a{color: #424242;}
+
+.header .nav li .dropdown-menu a{color: #424242;}
 .header .nav li a i {
 	margin-left: 5px;
 	opacity: 0;
@@ -4078,11 +4085,7 @@ border-top-right-radius: 20px;
 ========================================*/ 
 .paymenticons{position: absolute; top:29px; right: 20px;} 
 .paymenticons img{max-height: 40px;}
-.footer {
-	background-color: #eee;
-	position: relative;
-	visibility: visible!important;
-}
+
 
 .playStore{ position: absolute; top: 25px; left: 0;}
 .footer .top-arrow .btn {
@@ -4109,28 +4112,21 @@ border-top-right-radius: 20px;
 }
 .footer .single-widget.about p{color: #666!important;}
 .footer a{color: #666!important;}
-.footer i{font-size: 21px; color: #ee4d18!important;}
+
 .footer .footer-top {
 	padding: 50px 0 80px;
 }
 .footer .single-widget{
 	margin-top:30px;
 }
-.footer .single-widget h2 {
-	color: #033b76;
-	font-size: 18px;
-	text-transform: capitalize;
-	display: block;
-	margin-bottom: 20px;
-	position: relative;
-}
+
 .footer .single-widget li{
 	color: #666;
 	position: relative;
 	margin-bottom: 10px;
 }
 .footer .single-widget li i{
-	margin-right:5px;
+	margin-right:0;
 }
 .footer .single-widget .list li:last-child{
 	margin-bottom:0px;
@@ -4139,7 +4135,7 @@ border-top-right-radius: 20px;
 	color: #666;
 }
 .footer .single-widget li:hover a{
-	padding-left:5px;
+	padding-left:0;
 } 
 /* About Widget */
 .footer .single-widget.about{}
@@ -4229,7 +4225,7 @@ border-top-right-radius: 20px;
 /* Footer Bottom */
 .footer .footer-bottom {
 	text-align: center;
-	border-top: 1px solid #cdd3d9;
+	border-top: 1px solid #4d4e4f;
 }
 .footer .bottom-top {
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -4255,7 +4251,7 @@ border-top-right-radius: 20px;
 	line-height: 30px;
 	text-align: center;
 	color: #fff;
-	border: 1px solid #e7e7e7;
+	border: 1px solid #ef7f1a;
 	border-radius: 30px;
 }
 .footer .social li:hover a{
@@ -4263,7 +4259,7 @@ border-top-right-radius: 20px;
 	border-color:transparent;
 }
 .footer .copyright p {
-	color: #666;
+	color: #ef7f1a;
 	margin: 0;
 	text-transform: capitalize;
 }
